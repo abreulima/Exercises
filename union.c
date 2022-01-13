@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     if (argc == 3)
     {
 
-        // Reset the variable
+        // Change every position to 0
         for(k = 0; k < 255; k++)
         {
             used[k] = 0;
